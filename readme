@@ -1,0 +1,9 @@
+run:
+
+youtube-dl --cookies 1.tmp --sleep-interval 60 -a xindongf.list
+
+get list:
+
+var links = document.getElementsByTagName('a');var style_class = "style-scope ytd-playlist-panel-video-renderer";
+for(var i =0;i<links.length;i++){ if(links[i].className.indexOf(style_class)>-1){ console.log(links[i].href)}}
+

@@ -1,3 +1,5 @@
+https://www.jianshu.com/p/611009843919
+
 run:
 
 youtube-dl --cookies 1.tmp --sleep-interval 60 -a xindongf.list

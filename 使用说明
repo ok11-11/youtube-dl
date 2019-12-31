@@ -7,3 +7,9 @@ get list:
 var links = document.getElementsByTagName('a');var style_class = "style-scope ytd-playlist-panel-video-renderer";
 for(var i =0;i<links.length;i++){ if(links[i].className.indexOf(style_class)>-1){ console.log(links[i].href)}}
 
+上传至百度云
+
+pip install bypy
+
+bypy info
+bypy -v upload C:\Mytemp  /cloud
